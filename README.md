@@ -21,6 +21,8 @@ yarn add @idui/react-icon
 
 ### Configuration
 
+- color, which you want to specify in props should be `currentColor` (e.g fill="currentColor", stroke="currentColor")
+
 ```jsx
 import React, { Fragment } from 'react';
 import { configureIcons } from "@idui/react-icon";
