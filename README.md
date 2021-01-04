@@ -21,6 +21,7 @@ yarn add @idui/react-icon
 
 ### Configuration
 
+- you can call configureIcons as many times as you want, icons will be merged
 - color, which you want to specify in props should be `currentColor` (e.g fill="currentColor", stroke="currentColor")
 
 ```jsx

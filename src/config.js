@@ -1,7 +1,10 @@
 let icons = {};
 
 export const configureIcons = (customIcons) => {
-  icons = customIcons;
+  icons = {
+    ...icons,
+    ...customIcons,
+  };
 };
 
 export { icons };
