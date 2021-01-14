@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import styled from 'styled-components';
-import { withPropsTable } from 'storybook-addon-react-docgen';
 import { configureIcons } from 'config';
 import Icon from './Icon';
 
@@ -44,12 +43,6 @@ export default {
     className: {
       control: 'text',
       description: 'icon className',
-    },
-  },
-  decorators: [withPropsTable],
-  parameters: {
-    props: {
-      propTablesInclude: [Icon],
     },
   },
 };
